@@ -1,0 +1,27 @@
+2022-06-15 23:39:40.786  INFO 6384 --- [restartedMain] c.b.u.UserRegistrationApplication        : Starting UserRegistrationApplication using Java 17.0.2 on LAPTOP-7535D7BF with PID 6384 (D:\Java SE Development Kit 17.0.2\JetBrains\CFP Projects\User Registration\userregistration\userregistration\target\classes started by HP in D:\Java SE Development Kit 17.0.2\JetBrains\CFP Projects\User Registration\userregistration)
+2022-06-15 23:39:40.791 DEBUG 6384 --- [restartedMain] c.b.u.UserRegistrationApplication        : Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-06-15 23:39:40.791  INFO 6384 --- [restartedMain] c.b.u.UserRegistrationApplication        : The following 1 profile is active: "DEV"
+2022-06-15 23:39:44.162  WARN 6384 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-15 23:39:44.471  WARN 6384 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2022-06-15 23:39:44.486  WARN 6384 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+2022-06-15 23:39:44.525 ERROR 6384 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2022-06-15 23:40:04.925  INFO 12112 --- [restartedMain] c.b.u.UserRegistrationApplication        : Starting UserRegistrationApplication using Java 17.0.2 on LAPTOP-7535D7BF with PID 12112 (D:\Java SE Development Kit 17.0.2\JetBrains\CFP Projects\User Registration\userregistration\userregistration\target\classes started by HP in D:\Java SE Development Kit 17.0.2\JetBrains\CFP Projects\User Registration\userregistration)
+2022-06-15 23:40:04.926 DEBUG 12112 --- [restartedMain] c.b.u.UserRegistrationApplication        : Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-06-15 23:40:04.926  INFO 12112 --- [restartedMain] c.b.u.UserRegistrationApplication        : The following 1 profile is active: "DEV"
+2022-06-15 23:40:07.966  WARN 12112 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-15 23:40:08.323  INFO 12112 --- [restartedMain] c.b.u.UserRegistrationApplication        : Started UserRegistrationApplication in 3.753 seconds (JVM running for 4.193)
+2022-06-15 23:40:08.323  INFO 12112 --- [restartedMain] c.b.u.UserRegistrationApplication        : AddressBook App Started in DEV Environment
+2022-06-15 23:40:08.331  INFO 12112 --- [restartedMain] c.b.u.UserRegistrationApplication        : AddressBook App started
